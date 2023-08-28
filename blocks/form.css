@@ -54,9 +54,11 @@
   border: 1px solid #838383;
   border-radius: 2px;
   appearance: none;
+  transition: background-color .3s;
 }
 
 .form__checkbox:checked {
-  background: #2f80ed url(../images/check.svg) no-repeat center;
+  background: url(../images/check.svg) no-repeat center;
+  background-color: #2f80ed;
   background-size: 80%;
 }
