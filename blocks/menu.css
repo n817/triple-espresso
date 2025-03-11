@@ -1,0 +1,32 @@
+.menu {
+  background: #fff url(../images/background_menu.svg) no-repeat center/cover;
+  padding: 100px 0;
+}
+
+.menu__title {
+  max-width: 780px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 24px auto 100px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
